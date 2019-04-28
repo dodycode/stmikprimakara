@@ -8,6 +8,10 @@ window.addEventListener("DOMContentLoaded",function() {
 	}
 });
 
+window.addEventListener('scroll', function() {
+	setNavbarBg();
+});
+
 function toggleNavbar() {
 	var mobileNavOpen = document.getElementById('open');
 	var mobileNavClose = document.getElementById('close');
@@ -23,3 +27,14 @@ function toggleNavbar() {
 		mobileNav.style.left = '-260px';
 	}
 };
+
+function setNavbarBg() {
+	var top  = window.pageYOffset || document.documentElement.scrollTop;
+	var navbar = document.getElementById('header');
+
+	if (top > 100) {
+		navbar.classList.add('header-scrolled');
+	}else{
+		navbar.classList.remove('header-scrolled');
+	}
+}
