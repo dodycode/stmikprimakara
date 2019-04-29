@@ -366,6 +366,19 @@ body {
 	color: #1abf9b;
 }
 
+.single-gallery-wrapper{
+	width: 33.333333%;
+	padding: 0 15px;
+}
+
+.single-gallery-image{
+	margin-top: 30px;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: cover !important;
+    height: 200px;
+}
+
 .footer-area{
 	background-color: #222;
 	color: #fff;
@@ -465,6 +478,10 @@ body {
 
 	.kampus-image,
 	.kampus-desc{
+		width: 100%;
+	}
+
+	.single-gallery-wrapper{
 		width: 100%;
 	}
 }
