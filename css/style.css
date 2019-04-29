@@ -9,6 +9,7 @@ html {
 body {
 	font-family: 'Montserrat', sans-serif;
 	position: relative;
+	height: 100%;
 }
 
 .header{
@@ -311,6 +312,60 @@ body {
     line-height: 20px;
 }
 
+.kampus-image,
+.kampus-desc{
+	width: 50%;
+	padding: 0 15px;
+}
+
+.kampus-desc .desc{
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 20px;
+	text-align: justify;
+}
+
+.kampus-desc p {
+	margin-top: 0;
+}
+
+.kampus-image img{
+	width: 100%;
+}
+
+.single-contact-address{
+	margin-bottom: 20px;
+}
+
+.single-contact-address .icon img{
+	width: 20px;
+	height: 20px;
+    margin-right: 20px;
+}
+
+.single-contact-address .contact-details h5{
+	margin-top: 0;
+	font-size: 16px;
+	margin-bottom: 5px;
+	font-weight: 500;
+}
+
+.single-contact-address .contact-details p{
+	margin-top: 10px;
+	margin-bottom: 1rem;
+	font-weight: 300;
+}
+
+.single-contact-address .contact-details a{
+	color: #000;
+	text-decoration: none;
+	transition: all 0.3s;
+}
+
+.single-contact-address .contact-details a:hover{
+	color: #1abf9b;
+}
+
 .footer-area{
 	background-color: #222;
 	color: #fff;
@@ -405,6 +460,11 @@ body {
 	}
 
 	.single-widget form input{
+		width: 100%;
+	}
+
+	.kampus-image,
+	.kampus-desc{
 		width: 100%;
 	}
 }
