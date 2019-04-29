@@ -311,6 +311,22 @@ body {
     line-height: 20px;
 }
 
+.footer-area{
+	background-color: #222;
+	color: #fff;
+	padding-top: 10px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.footer-area a{
+	color: #1abf9b;
+	text-decoration: none;
+}
+
 @-webkit-keyframes action {
     0% { transform: translateY(0); }
     100% { transform: translateY(-10px); }
